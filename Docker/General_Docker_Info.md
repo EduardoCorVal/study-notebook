@@ -71,3 +71,5 @@ Both applications should live in the same network
 ### References
 
 [A practical guide on Docker with projects | Docker Course](https://www.youtube.com/watch?v=rr9cI4u1_88)
+
+https://www.notion.so/Docker-1861b9434f704a75a62a47b76a220a95?pvs=4
