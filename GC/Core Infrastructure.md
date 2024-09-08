@@ -140,6 +140,19 @@ Kubernates creates a Service with a fixes IP address for Pods -> It attaches a n
 GKE manages all the control plane components for us. It's responsible for provisioning and managing all the control plane infrastructure behind it
   - *Autopilot mode:* Optimized for production, strong security posture
 
+# M6 Cloud Run
+
+Managed Compute Platform that can run stateless containers
+Serverless -> Remove the need for insfrastructure management
+Build on _Knative_, an open API and runtime environment built on kubernatess
+Can automatically scale up and down
+Steps: Write -> Build and package -> Deploy to Cloud Run
+
+**Cloud functions**:
+A single-purpose function that completes the necessary image manipulations and then arrante for it automatically run whenever a new image is uploaded
+- Lightweight, event-based, asyunchronous compute solution
+- Responde to cloud events without the need to manage a server or a runtime environment
+
 # Discounts
 
 - VMs: _Sustained-use discounts_ starts to apply automatically to vms the longer they run. For each vm that runs for more than 25% of a month, Compute engine automatically applies a discount for every addtional minute
